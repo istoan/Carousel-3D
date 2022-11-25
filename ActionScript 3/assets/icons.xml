@@ -1,0 +1,21 @@
+<icons>
+
+<icon image="images/Games.png" tooltip="Games" />
+
+<icon image="images/Memory.png" tooltip="Memory" />
+
+<icon image="images/Walkmen.png" tooltip="Mp3 Player" />
+
+<icon image="images/Printer.png" tooltip="Printer" />
+
+<icon image="images/Photo Camera.png" tooltip="Photos"/>
+
+<icon image="images/Scanner.png" tooltip="Scanner" />
+
+<icon image="images/Laptop.png" tooltip="Notebook" />
+
+<icon image="images/Desktop.png" tooltip="Desktop" />
+
+<icon image="images/Pda.png" tooltip="PDA" />
+
+</icons>

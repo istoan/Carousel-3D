@@ -19,7 +19,7 @@ package com.vamapaull.view
 			_textField.y = 6;
 			_textField.text = "Default Text Here";
 			_textField.autoSize = TextFieldAutoSize.LEFT;
-			_textField.defaultTextFormat = new TextFormat("Arial", 20, 0x999999, true);
+			_textField.defaultTextFormat = new TextFormat("Arial", 20, 0x333333, true);
 			
 			addChild(_roundRect);
 			addChild(_textField);

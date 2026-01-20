@@ -12,7 +12,8 @@ const radiusX = 300;
 const radiusY = 75;
 const centerX = canvas.width / 2;
 const centerY = canvas.height / 2;
-let speed = 0.05; // Base speed
+let speedSensitivity = 7000; // Adjusted variable for speed calculation (higher value, lower speed sensitivity)
+let speed = 0.05; // Initial speed
 const perspective = 130;
 let items = []; // Array to hold all item objects
 
@@ -268,7 +269,7 @@ canvas.addEventListener('mousemove', (event) => {
     currentMouseY = event.clientY;
 
     // Update speed based on mouse X position (speed = (this._xmouse-centerX)/2500)
-    speed = (currentMouseX - centerX) / 2500;
+    speed = (currentMouseX - centerX) / speedSensitivity;
 });
 
 // --- Click Handling (Replaces onRelease) ---
